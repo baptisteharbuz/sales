@@ -1,0 +1,79 @@
+/* src/Component/Navbar/Style/Navbar_style.css
+--------------------------------------
+Styles pour la Navbar (Drawer),
+icônes, transition, etc.
+-------------------------------------- */
+
+/* Drawer expanded (240px) vs collapsed (60px) */
+.drawerPaper {
+    width: 240px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+    height: 100%;
+    background-color: #e8e8e8;
+}
+
+.drawerPaper.collapsed {
+    width: 60px;
+    transition: width 0.3s ease;
+}
+
+/* Transition du texte MUI */
+.drawer.collapsed .MuiTypography-root {
+    opacity: 0;
+    transition: opacity 0.3s ease 0s;
+}
+
+.drawerPaper.collapsed .MuiTypography-root {
+    display: none;
+}
+
+.MuiTypography-root {
+    opacity: 1;
+    transition: opacity 0.3s ease 0.3s;
+}
+
+/* Liste, items */
+.listItemButton {
+    justify-content: flex-start;
+    color: #000000;
+}
+
+.listItemButton:hover {
+    background-color: #55555566;
+    color: #004b1a;
+}
+
+/* Divider (séparateur) */
+.MuiDivider-root {
+    border-color: #999;
+    opacity: 0.8;
+}
+
+/* Tooltip */
+.tooltip {
+    transition: opacity 0.5s;
+}
+
+.collapsedTooltip {
+    /* éventuellement vide */
+}
+
+/* Zone "toggleBox" (milieu) pour agrandir/réduire */
+.toggleBox {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+/* Marges dynamiques selon .layout + .collapsed */
+.layout {
+    margin-left: 240px;
+    /* Par défaut, la navbar fait 240px */
+    transition: margin-left 0.3s;
+}
+
+.layout.collapsed {
+    margin-left: 60px;
+    /* Quand la navbar est repliée */
+}

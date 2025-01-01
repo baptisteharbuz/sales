@@ -1,0 +1,21 @@
+/* App.css
+--------------------------------------
+Styles globaux suppl. (animation logo,
+ou .appContainer, etc.)
+-------------------------------------- */
+
+.App {
+  text-align: center;
+}
+
+/* Conteneur principal de la page,
+   apparait à droite de la navbar */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.3s;
+  min-height: 100vh;
+  padding: 2rem; /* marge interne */
+  align-items: center;
+  justify-content: center;
+}

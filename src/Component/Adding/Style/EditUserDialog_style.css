@@ -1,0 +1,10 @@
+/* src/Style/EditUserDialog.css */
+/* Styles dédiés au composant EditUserDialog */
+
+.editUserDialogContent {
+    /* ex: padding: 1rem; ... */
+}
+
+.editUserDialogActions {
+    /* ex: justify-content: flex-end; ... */
+}

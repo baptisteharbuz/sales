@@ -1,0 +1,12 @@
+/* src/Style/RecyclageUserTable_style.css */
+
+.recyclageTableContainer {
+    /* On garde la cohérence : large, marges... */
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .recyclageUserTablePaper {
+    /* Par exemple, on pourrait ajouter un box-shadow, etc. */
+    box-shadow: none;
+  }

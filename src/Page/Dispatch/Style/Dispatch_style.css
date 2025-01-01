@@ -1,0 +1,6 @@
+/* src/Style/Dispatch_style.css */
+.dispatchContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }

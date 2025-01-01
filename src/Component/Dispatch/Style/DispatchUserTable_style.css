@@ -1,0 +1,8 @@
+/* src/Style/DispatchUserTable_style.css */
+.dispatchTableContainer {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .dispatchUserTablePaper {
+    /* ex: box-shadow: none; */
+  }

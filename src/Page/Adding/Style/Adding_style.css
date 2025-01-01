@@ -1,0 +1,26 @@
+/* src/Style/Adding_page.css
+---------------------------------------------
+Styles spécifiques pour la page Ajout
+---------------------------------------------
+*/
+
+.addingContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .addingGrid {
+    margin-top: 1rem;
+  }
+  
+  /* Gros "boutons" (Paper) */
+  .addingCard {
+    padding: 2rem;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+    text-align: center; /* Centre le texte */
+  }
+  .addingCard:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }

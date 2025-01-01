@@ -1,0 +1,7 @@
+/* src/Style/Recyclage_style.css */
+.recyclageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* padding, margin, etc. */
+  }

@@ -1,0 +1,18 @@
+/* src/Style/DispatchFilterBox_style.css */
+.dispatchFilterBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.dispatchFormControl {
+    min-width: 180px;
+}
+
+.dispatchButton {
+    align-self: center;
+}

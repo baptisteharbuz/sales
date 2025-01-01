@@ -1,0 +1,12 @@
+/* src/Style/ReassignDialog_style.css */
+
+.reassignDialogContent {
+    /* ex: padding: 1rem; */
+  }
+  
+  .selectAllBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+  }

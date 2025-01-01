@@ -1,0 +1,36 @@
+/* src/Style/PappersNaf_page.css
+----------------------------------------------
+Styles spécifiques pour la page PappersNaf
+----------------------------------------------
+*/
+
+.pappersNafContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pappersNafInputBox {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    /* espace entre le textfield et le bouton */
+}
+
+.pappersNafTextField {
+    /* min-width: 200px; si vous voulez forcer une largeur */
+}
+
+.pappersNafButton {
+    align-self: flex-end;
+    /* ou center, si vous voulez */
+}
+
+.pappersNafStatsGrid {
+    margin-top: 1rem;
+}
+
+.pappersNafStatsPaper {
+    padding: 1rem;
+    text-align: center;
+}

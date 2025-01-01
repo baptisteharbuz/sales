@@ -1,0 +1,46 @@
+/* src/Style/Home_style.css
+--------------------------------------
+Styles personnalisés pour la page Home
+-------------------------------------- */
+
+.homeContainer {
+    /* Fond qui s'adapte, par défaut on met du clair.
+       En mode sombre, MUI gère la palette. 
+       On peut forcer un background dynamic
+       si besoin via theme, mais ici c'est statique. */
+    padding: 24px;
+    background-color: inherit;
+    /* ou #fff si vous voulez forcer le blanc */
+}
+
+.homeTitle {
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.homeGrid {
+    margin-top: 16px;
+}
+
+/* Paper */
+.homePaper {
+    padding: 16px;
+    transition: box-shadow 0.3s ease;
+    /* En mode sombre, vous voudrez éventuellement "background-color: #1E1E1E;" 
+       ou alors laisser MUI s'en charger */
+}
+
+.homePaper:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Titres, etc. */
+.homePaperTitle {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.homePaperValue {
+    margin-bottom: 8px;
+    font-size: 2rem;
+}
